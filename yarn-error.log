@@ -1,0 +1,78 @@
+Arguments: 
+  /Users/pornmongkonp/.nvm/versions/node/v6.10.1/bin/node /Users/pornmongkonp/.nvm/versions/node/v6.10.1/bin/yarn install
+
+PATH: 
+  /Users/pornmongkonp/.nvm/versions/node/v6.10.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/pornmongkonp/Library/WebDriver/chromedriver:/usr/local/share/dotnet:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/pornmongkonp/Library/Android/sdk/platform-tools/:/Users/pornmongkonp/.rvm/bin:/usr/local/bin:/Users/pornmongkonp/go1.9.1/bin:/Users/pornmongkonp/go/bin
+
+Yarn version: 
+  1.3.2
+
+Node version: 
+  6.10.1
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "ngrx-todos",
+    "version": "0.0.0",
+    "license": "MIT",
+    "scripts": {
+      "ng": "ng",
+      "start": "ng serve",
+      "build": "ng build",
+      "test": "ng test",
+      "lint": "ng lint",
+      "e2e": "ng e2e"
+    },
+    "private": true,
+    "dependencies": {
+      "@angular/animations": "^5.0.0",
+      "@angular/common": "^5.0.0",
+      "@angular/compiler": "^5.0.0",
+      "@angular/core": "^5.0.0",
+      "@angular/forms": "^5.0.0",
+      "@angular/http": "^5.0.0",
+      "@angular/platform-browser": "^5.0.0",
+      "@angular/platform-browser-dynamic": "^5.0.0",
+      "@angular/router": "^5.0.0",
+      "core-js": "^2.4.1",
+      "rxjs": "^5.5.2",
+      "zone.js": "^0.8.14"
+    },
+    "devDependencies": {
+      "@angular/cli": "1.5.0",
+      "@angular/compiler-cli": "^5.0.0",
+      "@angular/language-service": "^5.0.0",
+      "@types/jasmine": "~2.5.53",
+      "@types/jasminewd2": "~2.0.2",
+      "@types/node": "~6.0.60",
+      "codelyzer": "~3.2.0",
+      "jasmine-core": "~2.6.2",
+      "jasmine-spec-reporter": "~4.1.0",
+      "karma": "~1.7.0",
+      "karma-chrome-launcher": "~2.1.1",
+      "karma-cli": "~1.0.1",
+      "karma-coverage-istanbul-reporter": "^1.2.1",
+      "karma-jasmine": "~1.1.0",
+      "karma-jasmine-html-reporter": "^0.2.2",
+      "protractor": "~5.1.2",
+      "ts-node": "~3.2.0",
+      "tslint": "~5.7.0",
+      "typescript": "~2.4.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: http://10.137.16.77:8081/repository/npm/@angular%2fanimations: ETIMEDOUT
+      at Timeout._onTimeout (/Users/pornmongkonp/.nvm/versions/node/v6.10.1/lib/node_modules/yarn/lib/cli.js:123749:19)
+      at ontimeout (timers.js:380:14)
+      at tryOnTimeout (timers.js:244:5)
+      at Timer.listOnTimeout (timers.js:214:5)
